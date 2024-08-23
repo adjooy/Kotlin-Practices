@@ -1,16 +1,16 @@
 fun main(){
     val marks = print("Enter your marks: ").let { readln().toInt() }
-    if (marks in 90..100)
+    if (marks > 90)
          println("Your Grade is A+")
-    else if (marks in 80..89)
+    else if (marks > 80)
         println("Your Grade is A")
-    else if (marks in 70..79)
+    else if (marks > 70)
         println("Your Grade is A-")
-    else if (marks in 60..69)
+    else if (marks > 60)
         println("Your Grade is B+")
-    else if (marks in 50..59)
+    else if (marks > 50)
         println("Your Grade is B-")
-    else if (marks in 40..49)
+    else if (marks > 40)
         println("Your Grade is C")
     else
         println("Your failed")
