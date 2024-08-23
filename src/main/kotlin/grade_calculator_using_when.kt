@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
 
 
     //    val marks = print("Enter Marks: ").let { readln().toInt() }
@@ -24,9 +24,6 @@ fun main(){
         else -> "Your Failed"
     }
     println(grade)
-
-
-
 
 
 }

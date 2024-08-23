@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
 
     //If & else Condition -->
     println("Welcome to Guess Game!!")
@@ -13,9 +13,6 @@ fun main(){
         println("Sorry, You Loss!!\nYour number is too small. Try bigger number!!")
     else
         println("Sorry, You Lose!!\nYour number is between 10 and 20 but not the winning number. Try again!")
-
-
-
 
 
 }

@@ -1,7 +1,7 @@
-fun main(){
+fun main() {
     val marks = print("Enter your marks: ").let { readln().toInt() }
     if (marks > 90)
-         println("Your Grade is A+")
+        println("Your Grade is A+")
     else if (marks > 80)
         println("Your Grade is A")
     else if (marks > 70)
@@ -14,7 +14,6 @@ fun main(){
         println("Your Grade is C")
     else
         println("Your failed")
-
 
 
 }
