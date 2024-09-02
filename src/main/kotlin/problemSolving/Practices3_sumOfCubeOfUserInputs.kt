@@ -20,7 +20,7 @@ fun main() {
 
 
 // 2nd Method
-//fun main() {
+//fun ProblemSolving.main() {
 //    val string = "245"
 //    for (char in string) {
 //        val digit = char - '0'
